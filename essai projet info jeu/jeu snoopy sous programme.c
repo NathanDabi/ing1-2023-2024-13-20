@@ -19,8 +19,8 @@ int menu()
     scanf("%d",&choix);
     return choix;
 }
-int Menu1 ()
-{
+int Menu1 () // ICI C LE CODE DU NIVEAU 1
+{                                                    // LA C LES REGLES DU JEU
     printf("==================================================================================================\n\n"
            "                REGLES DU JEU:\n\n"
            "==================================================================================================\n\n"
@@ -38,7 +38,7 @@ int Menu1 ()
 
 
 }
-int Menu2 ()
+int Menu2 ()                    //LA C LA MATRICE
 {
     char matrice[10][20];
 
@@ -56,7 +56,7 @@ int Menu2 ()
         }
     }
 
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 10; i++) {                    //ICI C LES COORDONNEES DES BLOCS
         for (int j = 0; j < 20; j++) {
             matrice[6][9]= 'X';
             matrice[7][9]= 'X';
@@ -93,7 +93,7 @@ int Menu2 ()
         printf("\n");
 
     }
-    int Temps = 120;
+    int Temps = 120;                // ET LA C LE TIMER
 
     while (Temps > 0) {
         printf("           Temps = %d", Temps);
@@ -110,7 +110,7 @@ int Menu2 ()
     printf("Temps = 0\n");
     ;
 }
-int Menu3 ()
+int Menu3 ()            // CA ON S'EN FOU
 {
     ;
 }
