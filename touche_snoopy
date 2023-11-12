@@ -17,7 +17,7 @@ int main() {
         switch (ch) {
             case 122:  // Code ASCII pour z (monter)
                 if (j > 1) {
-                    j--;
+                    j++;
                 }
                 break;
             case 113:  // Code ASCII pour q (à gauche)
@@ -32,7 +32,7 @@ int main() {
                 break;
             case 115:  // Code ASCII pour s (en bas)
                 if (j < 20) {
-                    j++;
+                    j--;
                 }
                 break;
             case 27:  // Code ASCII pour la touche Échap pour quitter le jeu
