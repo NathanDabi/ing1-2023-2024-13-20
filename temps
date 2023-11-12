@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <unistd.h>
+// Script Temps pour le projet
+int main()
+{
+            int Temps=60 ;
+
+        tandis que (Temps>0)
+        {
+            printf("temps: %d\n",Temps);
+            Temps--;
+            dormir(1);
+
+        }
+
+    printf("Temps ecoule.\n");
+        renvoie 0 ;
+
+}
