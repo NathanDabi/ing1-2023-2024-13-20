@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="essai_projet_info_jeu"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai projet info jeu/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="essai_projet_info_jeu">
+				<Option output="/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai projet info jeu/cmake-build-debug/essai_projet_info_jeu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai projet info jeu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 essai_projet_info_jeu"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="essai_projet_info_jeu/fast">
+				<Option output="/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai projet info jeu/cmake-build-debug/essai_projet_info_jeu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai projet info jeu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 essai_projet_info_jeu/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai projet info jeu/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai projet info jeu/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai\ projet\ info\ jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai projet info jeu/jeu snoopy sous programme.c">
+			<Option target="essai_projet_info_jeu"/>
+		</Unit>
+		<Unit filename="/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai projet info jeu/jeu snoopy sous programme.h">
+			<Option target="essai_projet_info_jeu"/>
+		</Unit>
+		<Unit filename="/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai projet info jeu/main.c">
+			<Option target="essai_projet_info_jeu"/>
+		</Unit>
+		<Unit filename="/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai projet info jeu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

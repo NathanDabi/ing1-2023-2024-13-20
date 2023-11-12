@@ -1,4 +1,4 @@
-# Install script for directory: /Users/nathandabi/Documents/essai projet info jeu
+# Install script for directory: /Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai projet info jeu
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/nathandabi/Documents/essai projet info jeu/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai projet info jeu/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

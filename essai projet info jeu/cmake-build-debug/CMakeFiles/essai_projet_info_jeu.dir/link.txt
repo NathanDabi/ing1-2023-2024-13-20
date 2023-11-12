@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/essai_projet_info_jeu.dir/main.c.o CMakeFiles/essai_projet_info_jeu.dir/jeu_snoopy_sous_programme.c.o -o essai_projet_info_jeu 
