@@ -33,7 +33,8 @@ int Menu1 ()
            "                afin de freiner Snoopy dans sa quête. Si la balle touche Snoopy, la partie est terminé, vous avez perdu...\n\n"
            "==================================================================================================\n\n"
            "            vous avez la possibilités si vous connaissez le mdp de sauter le niveau 1 et 2 et d'atterrir directement au niveau 3. \n\n"
-           "==================================================================================================\n\n");
+           "==================================================================================================\n\n"
+           " les touches de deplacement sont Z pour aller en haut, S pour aller en bas, Q pour aller a gauche et D pour aller à droite, pour interagir avec les objets, c'est la rouche P qu'il faut saisir.\n\n\n\n\n");
 
 
 }
