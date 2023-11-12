@@ -1,0 +1,40 @@
+Touches pour bouger snoopy 1ere partie
+
+#include <stdio.h>
+#include <conio.h>
+#include <time.h>
+
+void gotoxy(int x, int y) {
+    printf("\x1b[%d;%df]", y, x);
+}
+
+int main() {
+    int x = 20, y = 10;
+
+    while (1) {
+        gotoxy(x, y);
+        printf("O");  // Affiche l'objet à la position actuelle
+
+        int ch = getch();
+
+        switch (ch) {
+            case 122:  // Code ASCII pour z (monter)
+                y++;
+                break;
+            case 113:  // Code ASCII pour q (à gauche)
+                x--;
+                break;
+            case 100:  // Code ASCII pour d (à droite)
+                x++;
+                break;
+            case 115:  // Code ASCII pour s (en bas)
+                y--;
+            case 105:  // Code ASCII pour i (interagir) (à suivre pour suite)
+                break;
+            case 27:  // Code ASCII pour la touche Échap (quitter le jeu)
+                return 0;
+        }
+    }
+
+    return 0;
+}
