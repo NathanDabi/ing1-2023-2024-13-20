@@ -21,9 +21,20 @@ int menu()
 }
 int Menu1 ()
 {
-    printf("Le but de Snoopy est de récupérer 4 oiseaux aux 4 coins du niveau en un temps imparti. Le problème\n"
-           "est que ces 4 oiseaux ne sont pas si faciles à récupérer. Une balle rebondit constamment dans le niveau\n"
-           "afin de freiner Snoopy dans sa quête. Si la balle touche Snoopy, la partie est terminé, vous avez perdu... \n");
+    printf("==================================================================================================\n\n"
+           "                REGLES DU JEU:\n\n"
+           "==================================================================================================\n\n"
+           "          Le but de Snoopy est de récupérer 4 oiseaux aux 4 coins du niveau en un temps imparti de 120 secondes !!!. Le problème\n"
+           "                est que ces 4 oiseaux ne sont pas si faciles à récupérer...\n\n"
+           "==================================================================================================\n\n"
+           "            Des blocs sont positionnés sur le terrain pour compliquer vos deplacements.\n\n"
+           "==================================================================================================\n\n"
+           "            De plus, dans les  niveaux superieurs vous trouverez une balle qui rebondit constamment entres les bords sur plateau\n\n"
+           "                afin de freiner Snoopy dans sa quête. Si la balle touche Snoopy, la partie est terminé, vous avez perdu...\n\n"
+           "==================================================================================================\n\n"
+           "            vous avez la possibilités si vous connaissez le mdp de sauter le niveau 1 et 2 et d'atterrir directement au niveau 3. \n\n"
+           "==================================================================================================\n\n");
+
 
 }
 int Menu2 ()
@@ -48,6 +59,32 @@ int Menu2 ()
         for (int j = 0; j < 20; j++) {
             matrice[6][9]= 'X';
             matrice[7][9]= 'X';
+            matrice[7][10]='X';
+            matrice[5][9]= 'X';
+            matrice[4][9]= 'X';
+            matrice[3][9]= 'X';
+            matrice[5][5]= 'X';
+            matrice[5][6]= 'X';
+            matrice[5][8]= 'X';
+            matrice[5][7]= 'X';
+            matrice[6][12]= 'X';
+            matrice[6][11]= 'X';
+            matrice[6][10]= 'X';
+            matrice[6][13]= 'X';
+            matrice[6][14]= 'X';
+            matrice[6][15]= 'X';
+            matrice[6][16]= 'X';
+            matrice[5][16]= 'X';
+            matrice[4][16]= 'X';
+            matrice[4][16]= 'X';
+            matrice[3][16]= 'X';
+            matrice[2][16]= 'X';
+            matrice[8][2]= 'X';
+            matrice[7][2]= 'X';
+            matrice[6][3]= 'X';
+            matrice[9][6]= 'X';
+            matrice[4][14]= 'X';
+            matrice[14][4]= 'X';
 
             printf("%c ", matrice[i][j]);
         }
