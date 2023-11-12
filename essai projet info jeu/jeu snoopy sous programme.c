@@ -83,9 +83,8 @@ int Menu2 ()                    //LA C LA MATRICE
             matrice[8][2]= 'X';
             matrice[7][2]= 'X';
             matrice[6][3]= 'X';
-            matrice[9][6]= 'X';
             matrice[4][14]= 'X';
-            matrice[14][4]= 'X';
+            matrice[6][4]= 'X';
 
             printf("%c ", matrice[i][j]);
         }
