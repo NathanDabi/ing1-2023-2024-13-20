@@ -88,6 +88,19 @@ int Menu2 ()                    //LA C LA MATRICE
 
             printf("%c ", matrice[i][j]);
         }
+        int j;   //LES OISEAUX OUUUU QUOI LA TEAM
+            matrice[1][1] = 'B';
+            matrice[1][18] = 'B';
+            matrice[8][1] = 'B';
+            matrice[8][18] = 'B';
+
+            if (matrice[i][j] == 'S') {
+
+                if ((i == 1 && j == 1) || (i == 1 && j == 18) || (i == 8 && j == 1) || (i == 8 && j == 18)) {
+                    matrice[i][j] = ' ';  
+                }
+            }
+
 
         printf("\n");
 
