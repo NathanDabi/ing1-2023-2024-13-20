@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai projet info jeu/jeu snoopy sous programme.c" "CMakeFiles/essai_projet_info_jeu.dir/jeu_snoopy_sous_programme.c.o" "gcc" "CMakeFiles/essai_projet_info_jeu.dir/jeu_snoopy_sous_programme.c.o.d"
-  "/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai projet info jeu/main.c" "CMakeFiles/essai_projet_info_jeu.dir/main.c.o" "gcc" "CMakeFiles/essai_projet_info_jeu.dir/main.c.o.d"
+  "C:/Users/sacha/CLionProjects/ing1-2023-2024-13-20/essai projet info jeu/jeu snoopy sous programme.c" "CMakeFiles/essai_projet_info_jeu.dir/jeu_snoopy_sous_programme.c.obj" "gcc" "CMakeFiles/essai_projet_info_jeu.dir/jeu_snoopy_sous_programme.c.obj.d"
+  "C:/Users/sacha/CLionProjects/ing1-2023-2024-13-20/essai projet info jeu/main.c" "CMakeFiles/essai_projet_info_jeu.dir/main.c.obj" "gcc" "CMakeFiles/essai_projet_info_jeu.dir/main.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

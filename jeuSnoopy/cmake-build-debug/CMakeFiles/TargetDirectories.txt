@@ -1,0 +1,3 @@
+C:/Users/sacha/CLionProjects/jeuSnoopy/cmake-build-debug/CMakeFiles/untitled13.dir
+C:/Users/sacha/CLionProjects/jeuSnoopy/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sacha/CLionProjects/jeuSnoopy/cmake-build-debug/CMakeFiles/rebuild_cache.dir

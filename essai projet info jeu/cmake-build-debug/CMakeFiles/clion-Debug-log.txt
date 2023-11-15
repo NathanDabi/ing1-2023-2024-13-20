@@ -1,10 +1,10 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S "/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai projet info jeu" -B "/Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai projet info jeu/cmake-build-debug"
--- The C compiler identification is AppleClang 14.0.3.14030022
+"C:\Program Files\JetBrains\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S "C:\Users\sacha\CLionProjects\ing1-2023-2024-13-20\essai projet info jeu" -B "C:\Users\sacha\CLionProjects\ing1-2023-2024-13-20\essai projet info jeu\cmake-build-debug"
+-- The C compiler identification is GNU 13.1.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/gcc.exe - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
--- Configuring done (2.1s)
+-- Configuring done (4.7s)
 -- Generating done (0.0s)
--- Build files have been written to: /Users/nathandabi/Documents/GitHub/ing1-2023-2024-13-20/essai projet info jeu/cmake-build-debug
+-- Build files have been written to: C:/Users/sacha/CLionProjects/ing1-2023-2024-13-20/essai projet info jeu/cmake-build-debug

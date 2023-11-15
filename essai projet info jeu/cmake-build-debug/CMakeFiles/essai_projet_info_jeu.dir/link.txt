@@ -1,1 +1,3 @@
-/Library/Developer/CommandLineTools/usr/bin/cc -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/essai_projet_info_jeu.dir/main.c.o CMakeFiles/essai_projet_info_jeu.dir/jeu_snoopy_sous_programme.c.o -o essai_projet_info_jeu 
+"C:\Program Files\JetBrains\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\essai_projet_info_jeu.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\essai_projet_info_jeu.dir/objects.a @CMakeFiles\essai_projet_info_jeu.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\essai_projet_info_jeu.dir/objects.a -Wl,--no-whole-archive -o essai_projet_info_jeu.exe -Wl,--out-implib,libessai_projet_info_jeu.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\essai_projet_info_jeu.dir\linkLibs.rsp
