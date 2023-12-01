@@ -14,11 +14,13 @@ void ibo2(char matrice[lignes][colonnes]) { //initiatlisation des blocks et oise
     matrice[8][18] = oiseau;
 
 
-    matrice[3][11] = bloc;
+    matrice[8][11] = bloc;
     matrice[7][14] = bloc;
     matrice[8][11] = bloc;
     matrice[2][18] = bloc;
     matrice[4][9] = bloc;
+    matrice[6][1]= bloc;
+    matrice[4][11]=bloc;
     /* matrice[3][11] = bloc;
      matrice[7][14] = bloc;
      matrice[3][11] = bloc;
@@ -32,7 +34,19 @@ void ibo2(char matrice[lignes][colonnes]) { //initiatlisation des blocks et oise
     matrice[9][15] = nobreak;
     matrice[11][13] = nobreak;
     matrice[2][15] = nobreak;
+    matrice[3][9]= nobreak;
+    matrice[5][9]= nobreak;
+    matrice[6][9]=nobreak;
+    matrice[7][10]=nobreak;
+    matrice[6][10]=nobreak;
+    matrice[5][10]=nobreak;
+    matrice[3][11]=nobreak;
+    matrice[6][4]=nobreak; 
+    matrice[7][4]=nobreak;
 }
+
+
+
 
 
 void bk2(char matrice[lignes][colonnes]) {
@@ -49,6 +63,16 @@ void bk2(char matrice[lignes][colonnes]) {
         matrice[3][10] = nobreak;
         matrice[9][15] = nobreak;
         matrice[11][13] = nobreak;
-        matrice[2][15] = nobreak;// 'H' pour le bloc incassable
+        matrice[2][15] = nobreak;
+        matrice[3][9]= nobreak;
+        matrice[5][9]= nobreak;
+        matrice[6][9]=nobreak;
+        matrice[7][10]=nobreak;
+        matrice[6][10]=nobreak;
+        matrice[5][10]=nobreak;
+        matrice[3][11]=nobreak;
+        matrice[6][4]=nobreak; // 'H' pour le bloc incassable
+        matrice[7][4]=nobreak;
     }
 }
+
