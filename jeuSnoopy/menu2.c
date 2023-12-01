@@ -78,18 +78,14 @@ int Menu2() {
                jeu_en_cours = 0;
                printf("\nVous avez accumule %d points !\n\n", poin);
                printf("Bravo, vous passez au niveau 2 ! :)\n\n");
-
-
+               void niveau2();
+               niveau2();
+               sleep(2);
            }
        }
-        void niveau2();
-        if(BIRD==4) {
-            niveau2();
-        }
-        sleep(2);
 
     }
-    printf("Le jeu est fini. \n");
 
     return 0;
 }
+
