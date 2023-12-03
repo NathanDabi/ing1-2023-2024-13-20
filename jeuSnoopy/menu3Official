@@ -1,0 +1,51 @@
+// Created by mathi on 03/12/2023.
+//
+#include <stdio.h>
+#include <string.h>
+
+int Menu3() {
+    // Mot de passe requis pour accéder au niveau 3
+    char mot_de_passe[50];
+
+    // Vérifier si le mot de passe existe déjà dans un fichier
+    FILE *fichier = fopen("mot_de_passe.txt", "r");
+    if (fichier != NULL) {
+        fscanf(fichier, "%s", mot_de_passe);
+        fclose(fichier);
+    } else {
+        // Demander à l'utilisateur de créer un nouveau mot de passe
+        printf("Creez votre mot de passe pour acceder au niveau 3 : ");
+        scanf("%s", mot_de_passe);
+
+        // Enregistrer le mot de passe dans un fichier pour les utilisations futures
+        fichier = fopen("mot_de_passe.txt", "w");
+        if (fichier != NULL) {
+            fprintf(fichier, "%s", mot_de_passe);
+            fclose(fichier);
+        } else {
+            printf("Erreur lors de l'enregistrement du mot de passe.\n");
+            return 1; // Quitter le programme en cas d'erreur
+        }
+    }
+
+    // Buffer pour stocker le mot de passe entré par l'utilisateur
+    char mot_de_passe_utilisateur[50];
+
+    // Demander à l'utilisateur d'entrer le mot de passe
+    printf("Entrez le mot de passe pour acceder au niveau 3 : ");
+    scanf("%s", mot_de_passe_utilisateur);
+
+    // Vérifier si le mot de passe est correct
+    if (strcmp(mot_de_passe, mot_de_passe_utilisateur) == 0) {
+        // Mot de passe correct, accéder au niveau 3
+        printf("Mot de passe correct. Bienvenue au niveau 3 !\n");
+        void niveau3();
+        niveau3();
+
+    } else {
+        // Mot de passe incorrect
+        printf("Mot de passe incorrect. Accès refusé.\n");
+    }
+
+    return 0;
+}
