@@ -1,0 +1,57 @@
+//
+// Created by Nathan Dabi on 03/12/2023.
+//
+//
+// Created by sacha on 14/11/2023.
+//
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include "snoopy.h"
+
+void ibo3(char matrice[lignes][colonnes]) { //initiatlisation des blocks et oiseaux
+    //  LES OISEAUX
+    matrice[8][1] = oiseau;
+    matrice[1][18] = oiseau;
+    matrice[1][1] = oiseau;
+    matrice[8][18] = oiseau;
+
+
+    matrice[4][15] = bloc;
+    matrice[6][4] = bloc;
+    matrice[2][13] = bloc;
+    matrice[2][17] = bloc;
+    matrice[1][9] = bloc;
+    /* matrice[3][11] = bloc;
+     matrice[7][14] = bloc;
+     matrice[3][11] = bloc;
+     matrice[7][14] = bloc;*/
+
+    matrice[6][10] = nobreak;
+    matrice[4][18] = nobreak;
+    matrice[2][12] = nobreak;
+    matrice[7][14] = nobreak;
+    matrice[8][12] = nobreak;
+    matrice[6][8] = nobreak;
+    matrice[3][4] = nobreak;
+    matrice[2][15] = nobreak;
+}
+
+
+void bk3(char matrice[lignes][colonnes]) {
+
+
+    // Ajout du bloc incassable
+    int rowH;  // Choisissez la position du bloc incassable
+    int colH;
+    if (rowH >= 0 && rowH < lignes && colH >= 0 && colH < colonnes) {
+        matrice[6][10] = nobreak;
+        matrice[4][18] = nobreak;
+        matrice[2][12] = nobreak;
+        matrice[7][14] = nobreak;
+        matrice[8][12] = nobreak;
+        matrice[6][8] = nobreak;
+        matrice[3][4] = nobreak;
+        matrice[2][15] = nobreak;// 'H' pour le bloc incassable
+    }
+}
