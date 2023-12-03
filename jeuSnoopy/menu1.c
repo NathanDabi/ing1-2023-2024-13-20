@@ -3,8 +3,10 @@
 //
 #include <stdio.h>
 #include "snoopy.h"
+#include <unistd.h>
 int Menu1 () // ICI C LE CODE DU NIVEAU 1
-{                                                    // LA C LES REGLES DU JEU
+{     
+    sleep(1) //on attend 1sec puis paf les règles
     printf("==================================================================================================\n\n"
            "                REGLES DU JEU:\n\n"
            "==================================================================================================\n\n"
@@ -20,5 +22,5 @@ int Menu1 () // ICI C LE CODE DU NIVEAU 1
            "==================================================================================================\n\n"
            " les touches de deplacement sont Z pour aller en haut, S pour aller en bas, Q pour aller a gauche et D pour aller à droite, pour interagir avec les objets, c'est la rouche P qu'il faut saisir.\n\n\n\n\n");
 
-
+    sleep(1)
 }
