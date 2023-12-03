@@ -1,0 +1,29 @@
+// LES GARS ICI C LE CODE DU MDP POUR LE NIVEAU 3, ESSAYER DE L'AJOUTER DANS VOTRE CLION PCQ MOI SUR MAC JE PEUX PLUS FAIRE FONCTIONER LE PROJET
+//PENSEZ BIEN A DEFINIR DCP LES DEUX VARIABES EN HAUT DU CODE
+
+//
+// Created by Nathan Dabi on 03/12/2023.
+//
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "snoopy.h"
+//#include <conio.h>
+#include <unistd.h>
+char MotDePasse; // FONCTIONS À AJOUTER AU FICHIER SNOOPY.H
+int Menu3()      // FONCTIONS À AJOUTER AU FICHIER SNOOPY.H
+{
+    printf("Vous souhaitez acceder directement au niveau 3 ? Dans ce cas saisiez le code secret ! \n");
+    scanf("%d",MotDePasse);
+    
+    if (MotDePasse== "accessskip"){
+        niveau3();
+    }
+    else if (MotDePasse!= "accessskip"){
+        printf("Mot de passe éroné: Veuillez réesayer.\n");
+        scanf("%d",MotDePasse);
+    }
+    else
+        return 0;
+    
+}
