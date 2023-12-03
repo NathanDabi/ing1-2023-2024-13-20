@@ -77,9 +77,9 @@ void niveau2() {
             if (BIRD<=0){
                 jeu_en_cours = 0;
                 printf("\nVous avez accumule %d points !\n\n", poin);
-                printf("Bravo ! :)\n\n");
-
-
+                printf("Bravo, vous passez au niveau 3 :)\n\n");
+                void niveau3();
+                niveau3();
             }
         }
 
