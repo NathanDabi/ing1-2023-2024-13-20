@@ -1,11 +1,3 @@
-//
-// Created by mathi on 01/12/2023.
-//
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-#include "snoopy.h"
-
 void ibo2(char matrice[lignes][colonnes]) { //initiatlisation des blocks et oiseaux
     //  LES OISEAUX
     matrice[8][1] = oiseau;
@@ -21,6 +13,10 @@ void ibo2(char matrice[lignes][colonnes]) { //initiatlisation des blocks et oise
     matrice[4][9] = bloc;
     matrice[6][1]= bloc;
     matrice[4][11]=bloc;
+    matrice[2][16]=bloc;
+    matrice[5][16]=bloc;
+    matrice[2][13]=bloc;
+    matrice[3][3]=bloc;
     /* matrice[3][11] = bloc;
      matrice[7][14] = bloc;
      matrice[3][11] = bloc;
@@ -41,8 +37,16 @@ void ibo2(char matrice[lignes][colonnes]) { //initiatlisation des blocks et oise
     matrice[6][10]=nobreak;
     matrice[5][10]=nobreak;
     matrice[3][11]=nobreak;
-    matrice[6][4]=nobreak; 
+    matrice[6][4]=nobreak; // 'H' pour le bloc incassable
     matrice[7][4]=nobreak;
+    matrice[6][11]=nobreak;
+    matrice[5][14]=nobreak;
+    matrice[5][15]=nobreak;
+    matrice[3][1]=nobreak;
+    matrice[3][3]=nobreak;
+    matrice[2][1]=nobreak;
+    matrice[2][3]=nobreak;
+    matrice[1][3]=nobreak;
 }
 
 
@@ -73,6 +77,10 @@ void bk2(char matrice[lignes][colonnes]) {
         matrice[3][11]=nobreak;
         matrice[6][4]=nobreak; // 'H' pour le bloc incassable
         matrice[7][4]=nobreak;
+        matrice[6][11]=nobreak;
+        matrice[5][14]=nobreak;
+        matrice[5][15]=nobreak;
+        matrice[3][1]=nobreak;
+        matrice[3][3]=nobreak;
     }
 }
-
